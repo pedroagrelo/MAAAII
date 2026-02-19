@@ -5,3 +5,8 @@ from tensorflow.keras.datasets import fashion_mnist
 
 print("Train:", X_train.shape)
 print("Test:", X_test.shape)
+
+#Vamos a trabajar con el conjunto de test
+print(X_test.shape)
+print(y_test.shape)
+print(X_test.dtype)
